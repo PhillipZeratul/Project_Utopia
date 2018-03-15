@@ -1,6 +1,6 @@
 // Get Player Input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 // Calculate Movement
@@ -8,8 +8,10 @@ key_jump = keyboard_check_pressed(vk_space);
 var move = key_right - key_left;
 horizontal_speed = move * walk_speed;
 
+var on_floor = place_meeting(x, y + 1, obj_wall);
+
 vertical_speed = vertical_speed + grvity;
-if (place_meeting(x, y + 1, obj_wall)) && (key_jump)
+if (on_floor) && (key_jump)
 {
 	vertical_speed = -jump_speed;
 }
@@ -35,3 +37,26 @@ if (place_meeting(x, y + vertical_speed, obj_wall))
 	vertical_speed = 0;
 }
 y = y + vertical_speed;
+
+// Animation
+if (!on_floor)
+{
+	sprite_index = spr_player_air;
+	image_speed = 0;
+	if (sign(vertical_speed) > 0) image_index = 0;
+	else image_index = 1;
+}
+else
+{
+	image_speed = 1;
+	if (horizontal_speed == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (horizontal_speed != 0) image_xscale = sign(horizontal_speed);
