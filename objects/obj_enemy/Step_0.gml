@@ -9,7 +9,7 @@ if (place_meeting(x + horizontal_speed, y, obj_wall))
 	{
 		x = x + sign(horizontal_speed);
 	}
-	horizontal_speed = 0;
+	horizontal_speed = -horizontal_speed;
 }
 x = x + horizontal_speed;
 

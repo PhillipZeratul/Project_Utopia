@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "a5b12354-3027-4345-9941-85e212ac2314",
+            "Value": {
+                "id": "65263ec6-e2b8-4b62-9074-40cd877c6862",
+                "resourcePath": "shaders\\shd_white\\shd_white.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "a892613a-1219-414a-8a69-24cdabe4f331",
             "Value": {
                 "id": "6ea8b16b-0d5f-4cef-bfd0-c8d30c426a8f",
@@ -188,6 +196,14 @@
                 "id": "f193191f-d172-4a25-914f-b692cb1bdc86",
                 "resourcePath": "views\/adeeb231-86f1-4019-ba5f-22a17fe9f7c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b5c573bb-d926-4cd9-950f-1427b41ccfc3",
+            "Value": {
+                "id": "9a8c81de-8af0-4176-8e72-50b24f37b65a",
+                "resourcePath": "objects\\obj_enemy_dead\\obj_enemy_dead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
