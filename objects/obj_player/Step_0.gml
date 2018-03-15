@@ -8,13 +8,11 @@ key_jump = keyboard_check_pressed(vk_space);
 var move = key_right - key_left;
 horizontal_speed = move * walk_speed;
 
-
 vertical_speed = vertical_speed + grvity;
 if (place_meeting(x, y + 1, obj_wall)) && (key_jump)
 {
 	vertical_speed = -jump_speed;
 }
-
 
 // Check Horizontal Collision
 if (place_meeting(x + horizontal_speed, y, obj_wall))
