@@ -9,9 +9,7 @@ if (!done)
 		{
 			x = x + sign(horizontal_speed);
 		}
-		horizontal_speed = 0;
-		show_debug_message("h collision");
-		
+		horizontal_speed = 0;		
 	}
 	x = x + horizontal_speed;
 	show_debug_message(string(x));

@@ -3,3 +3,5 @@ vertical_speed = 0;
 grvity = 1;
 walk_speed = 6;
 jump_speed = 12;
+
+controller = false;
