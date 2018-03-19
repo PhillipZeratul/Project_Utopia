@@ -1,27 +1,35 @@
 // Get Player Input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
-
-if (key_left || key_right || key_jump)
+if (has_control)
 {
-	controller = false;
-}
+	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space);
 
-// Ignore mistouching.
-if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+	if (key_left || key_right || key_jump)
+	{
+		controller = false;
+	}
+
+	// Ignore mistouching.
+	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+	{
+		controller = true;
+		key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
+		key_right = max(gamepad_axis_value(0, gp_axislh), 0);
+	}
+
+	if (gamepad_button_check_pressed(0, gp_face1))
+	{
+		controller = true;
+		key_jump = 1;
+	}
+}
+else
 {
-	controller = true;
-	key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
-	key_right = max(gamepad_axis_value(0, gp_axislh), 0);
+	key_left = 0;
+	key_right = 0;
+	key_jump = 0;
 }
-
-if (gamepad_button_check_pressed(0, gp_face1))
-{
-	controller = true;
-	key_jump = 1;
-}
-
 // Calculate Movement
 // move = [1, -1, 0]
 var move = key_right - key_left;

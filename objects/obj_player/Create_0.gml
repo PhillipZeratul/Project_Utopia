@@ -5,3 +5,5 @@ walk_speed = 6;
 jump_speed = 12;
 
 controller = false;
+
+has_control = true;
