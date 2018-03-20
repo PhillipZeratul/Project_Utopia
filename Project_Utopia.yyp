@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "b36e86d0-dce2-4462-9b77-2cba79152fc1",
+            "Value": {
+                "id": "fd13f74f-768b-4c02-8dc5-80de158db40a",
+                "resourcePath": "scripts\\scp_ScreenShake\\scp_ScreenShake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b5c573bb-d926-4cd9-950f-1427b41ccfc3",
             "Value": {
                 "id": "9a8c81de-8af0-4176-8e72-50b24f37b65a",
@@ -368,7 +376,8 @@
         }
     ],
     "script_order": [
-        "4c3e944b-63e1-486c-9371-b153164d8ed7"
+        "4c3e944b-63e1-486c-9371-b153164d8ed7",
+        "b36e86d0-dce2-4462-9b77-2cba79152fc1"
     ],
     "tutorial": ""
 }

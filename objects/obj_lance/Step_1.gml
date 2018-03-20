@@ -22,6 +22,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0, gp_shoulderrb)) && 
 {
 	recoil = 10;
 	fire_delay = 8;
+	scp_ScreenShake(1, 4);
 	with(instance_create_layer(x, y, "Lance", obj_lance_throw))
 	{
 		speed = 25;

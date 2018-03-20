@@ -11,8 +11,7 @@ if (!done)
 		}
 		horizontal_speed = 0;		
 	}
-	x = x + horizontal_speed;
-	show_debug_message(string(x));
+x = x + horizontal_speed;
 
 	// Check Vertical Collision
 	if (place_meeting(x, y + vertical_speed, obj_wall))
