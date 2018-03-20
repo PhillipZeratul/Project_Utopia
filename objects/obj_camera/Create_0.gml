@@ -10,3 +10,6 @@ shake_length = 0;
 shake_magnitude = 0;
 shake_remain = 0;
 buff = 32;
+
+layer_mountains = layer_get_id("Mountains");
+layer_trees = layer_get_id("Trees");

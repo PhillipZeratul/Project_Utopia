@@ -21,3 +21,13 @@ if (shake_remain > 0)
 }
 
 camera_set_view_pos(camera, x - view_w_half, y - view_h_half);
+
+if (layer_exists(layer_mountains))
+{
+	layer_x(layer_mountains, x/2);	
+}
+
+if (layer_exists(layer_trees))
+{
+	layer_x(layer_trees, x/4);
+}
