@@ -913,6 +913,25 @@
             }
         },
         {
+            "Key": "df895aca-d047-48d3-8906-4a520f4214a1",
+            "Value": {
+                "id": "05c36f57-8b4b-41a1-9c35-0084fe3ef568",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_big\/obj_enemy_big.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e0a4dac4-4d53-415b-a63d-756451cda1b3",
             "Value": {
                 "id": "5ed610df-e244-42b7-b278-5dfed9eaf494",
