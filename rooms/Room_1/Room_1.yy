@@ -143,7 +143,8 @@
         "d580c9d9-59a5-458c-adc5-2278bd0ae99d",
         "47810e2c-b7fb-4623-8db3-beb0e6982b44",
         "064990bb-3b7b-43bc-8494-4d0d0b5aca73",
-        "b53056f7-b892-4077-bd06-d98f54020edb"
+        "b53056f7-b892-4077-bd06-d98f54020edb",
+        "68431ee5-59b1-4675-b815-7f23606d4a00"
     ],
     "IsDnD": false,
     "layers": [
@@ -397,7 +398,8 @@
 {"name": "inst_32B6C4DA","id": "bb6a125c-45b5-4b79-8240-0cde12fa378d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_32B6C4DA","objId": "494a2eaa-fb11-4adc-a1bb-174c365c6772","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 448},
 {"name": "inst_766DDE12","id": "0fc774da-c9d2-4e90-99a8-8b417ae7017c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_766DDE12","objId": "494a2eaa-fb11-4adc-a1bb-174c365c6772","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 160,"y": 448},
 {"name": "inst_2A4024A3","id": "d580c9d9-59a5-458c-adc5-2278bd0ae99d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2A4024A3","objId": "494a2eaa-fb11-4adc-a1bb-174c365c6772","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 448},
-{"name": "inst_3CDC6E0A","id": "47810e2c-b7fb-4623-8db3-beb0e6982b44","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3CDC6E0A","objId": "494a2eaa-fb11-4adc-a1bb-174c365c6772","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1248,"y": 704}
+{"name": "inst_3CDC6E0A","id": "47810e2c-b7fb-4623-8db3-beb0e6982b44","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3CDC6E0A","objId": "494a2eaa-fb11-4adc-a1bb-174c365c6772","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1248,"y": 704},
+{"name": "inst_519054F6","id": "68431ee5-59b1-4675-b815-7f23606d4a00","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_519054F6","objId": "ec3ec08b-042a-40e5-ac0a-b70e16030026","properties": [{"id": "44879fab-0e3f-4088-a962-9f9479a6eeff","modelName": "GMOverriddenProperty","objectId": "ec3ec08b-042a-40e5-ac0a-b70e16030026","propertyId": "4285da29-5676-47a5-8d15-da9e513ffca3","mvc": "1.0","value": "\"Welcome to my first Game Maker game\nHave Fun!!\""}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 704,"y": 704}
             ],
             "layers": [
 

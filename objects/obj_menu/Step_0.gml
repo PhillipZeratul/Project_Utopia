@@ -23,6 +23,7 @@ if (menu_control)
 		menu_x_target = gui_width + 300;
 		menu_committed = menu_curser;
 		menu_control = false;
+		audio_play_sound(snd_shoot, 10, false);
 	}
 }
 

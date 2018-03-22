@@ -75,6 +75,11 @@ if (!on_floor)
 }
 else
 {
+	if (sprite_index == spr_player_air)
+	{
+		audio_sound_pitch(snd_landing, choose(0.8, 1.0, 1.2));
+		audio_play_sound(snd_landing, 12, false);
+	}
 	image_speed = 1;
 	if (horizontal_speed == 0)
 	{
